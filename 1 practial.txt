@@ -1,0 +1,184 @@
+#include <stdio.h>       2
+
+int main()
+{
+    int p,  t;
+    float r, si;
+    printf("\n enter the value of principal :");
+    scanf( "%d",&p);
+     printf("\n enter the rate of intrest :");
+    scanf( "%f",&r);
+     printf("\n enter the time in form of year :");
+    scanf( "%d",&t);
+    si = p*r*t/100;
+    printf("\n the simple intrest is: %f",si);
+    
+    
+}
+
+
+3 PROGRAM*********
+
+#include <stdio.h>
+
+int main()
+{
+    int side, lenght, breath, s_parameter, s_area,  r_parameter, r_area;
+    
+    printf("\nenetr the value of squre of side :");
+    scanf("%d" ,&side);
+    printf("\nenetr the value rectangle lenght:");
+    scanf("%d" ,&lenght);
+    printf("\nenetr the value rectangle breath:");
+    scanf("%d" ,&breath);
+    s_area = side*side;
+    printf("\narea of squre:%d" ,s_area);
+    r_area= lenght*breath;
+    printf("\narea of rectangle:%d" ,r_area);
+    s_parameter = 4*side;
+    printf("\nparameter of squre: %d" ,s_parameter);
+    r_parameter = 2*(lenght +breath);
+    printf("\nparameter of rectangle:%d" ,r_parameter);
+    
+    
+    
+    
+}
+
+
+3progaram *********
+
+#include <stdio.h>
+
+int main()
+{
+    float fare_t, cel_t;
+    printf("\nenter the temp in fare_t :");
+    scanf("%f" , &fare_t);
+    cel_t = (fare_t - 32)*5/9;
+    printf("\n temp in celesius : %f" , cel_t);
+    
+    
+    
+}
+
+
+4 PROGRAM *****
+#include <stdio.h>
+
+int main()
+{    int x, y, z;
+     printf("enetr the value of x :");
+     scanf("%d",&x);
+      printf("\nenetr the value of y :");
+     scanf("%d",&y);
+     z = x +y;
+     printf("\nadd of x and y: %d" ,z);
+     z = x -y;
+     printf("\nsub of x and y: %d" ,z);
+     z = x *y;
+     
+     printf("\nmultiplication of x and y: %d" ,z);
+     z = x /y;
+     
+     printf("\ndivsion of x and y: %d" ,z);
+     z = x %y;
+     
+     printf("\nremainder of x and y: %d" ,z);
+    
+    
+    
+}
+
+
+program 5 *******
+
+#include <stdio.h>
+
+int main()
+ {
+     int n1, n2, n3;
+     printf("enter the number 1 ");
+     scanf("%d",&n1);
+     printf("enter the number 2 ");
+     scanf("%d",&n2);
+     printf("enter the number 3 ");
+     scanf("%d",&n3);
+     if(n1>n2){
+         if(n1>n3){
+             printf("n1 is grater ");
+         }
+        printf("n3 is grater ");
+     }
+     else
+     printf("n2 is grater ");
+ }
+
+
+6 program
+
+
+#include <stdio.h>
+
+int main()
+{
+    int x =2, y= 3;
+    x = x+y;
+    y=x-y;
+    x= x-y;
+    printf("value of x : %d" ,x);
+    printf("value of y : %d" ,y);
+    
+    
+}
+
+
+pogram
+*******************************************************************************/
+#include <stdio.h>
+
+int main()
+{
+    int sub1, sub2,sub3,sub4,sub5 , total;
+    float avarage;
+    printf("enetr the mark of sub 1 :");
+    scanf("%d",&sub1);
+    printf("enetr the mark of sub 2 :");
+    scanf("%d",&sub2);
+    printf("enetr the mark of sub 3 :");
+    scanf("%d",&sub3);
+    printf("enetr the mark of sub 4 :");
+    scanf("%d",&sub4);
+    printf("enetr the mark of sub 5 :");
+    scanf("%d",&sub5);
+    total = sub1 +sub2+sub3+sub4+sub5;
+    printf("total of sub is : %d",total);
+    avarage = total/5;
+    printf("avarage of sub is %f", avarage);
+    
+    
+    
+    
+}
+
+
+program  6 *******
+
+#include <stdio.h>
+
+int main()
+{
+    int distance , time , speed;
+    
+    printf("enetr the distance :");
+    scanf("%d",&distance);
+    printf("enetr the time :");
+    scanf("%d",&time);
+    
+    speed = distance /time;
+    printf("speed is : %d", speed);
+    
+    
+    
+    
+}
